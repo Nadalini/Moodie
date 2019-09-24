@@ -1,7 +1,6 @@
 <?php
     // Verifica se o usuário está logado
     include_once "../../user/login/check.php";
-    // Se sim, inicia a sessão
     session_start();
     include_once "../../bd.php";
     // Verifica se o usuário é colaborador
